@@ -1,0 +1,17 @@
+{
+  "name": "bun-decorator-thing",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "gateway",
+    "dev": "gateway dev",
+    "gen": "gateway gen"
+  },
+  "dependencies": {
+    "gateway": "redraskal/gateway"
+  }
+}
