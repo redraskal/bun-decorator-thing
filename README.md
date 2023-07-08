@@ -1,31 +1,16 @@
-# Gateway template
+# repro
 
 ## To install dependencies:
 
+The "bin" package.json feature does not seem to work with GitHub dependencies, so you have to do this fun dance.
+
 ```bash
 bun i
+bun rm gateway
+bun i redraskal/gateway
 ```
 
-## To generate a route:
-
-```bash
-bun gen {name}
-
-bun gen test
-# or
-bun gen test.ts
-# 📝 pages/test.ts created.
-```
-
-The new route will automatically open in Visual Studio Code.
-
-## To run a development server:
-
-```bash
-bun run dev
-```
-
-## To run a production server:
+## To run the server:
 
 ```bash
 bun start
